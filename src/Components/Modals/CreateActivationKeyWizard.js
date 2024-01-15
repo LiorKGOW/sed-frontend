@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import {
-	Modal,
-	ModalVariant,
-	Button
-} from '@patternfly/react-core';
-import {
-	Wizard
-} from '@patternfly/react-core/deprecated';
+import { Modal, ModalVariant, Button, Wizard } from '@patternfly/react-core';
 
 import PropTypes from 'prop-types';
 import useCreateActivationKey from '../../hooks/useCreateActivationKey';
