@@ -7,9 +7,8 @@ import {
   ToolbarGroup,
   ToolbarItem,
   ToggleGroup,
-  Select,
-  SelectOption,
 } from '@patternfly/react-core';
+import { Select, SelectOption } from '@patternfly/react-core/deprecated';
 
 import { FilterIcon } from '@patternfly/react-icons';
 import propTypes from 'prop-types';
